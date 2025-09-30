@@ -1,0 +1,21 @@
+[project]
+name = "decorators-practice"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dan Per",email = "bebrich66@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "debugpy (==1.8.17)",
+    "pendulum (==3.1.0)",
+    "python-dateutil (==2.9.0.post0)",
+    "six (==1.17.0)",
+    "tzdata (==2025.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
